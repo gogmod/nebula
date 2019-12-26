@@ -1,0 +1,4 @@
+#!/bin/bash
+
+./scripts/nebula.service start all
+tail -f  /tmp/yum.log
